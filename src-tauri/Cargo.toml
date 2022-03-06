@@ -32,6 +32,7 @@ term-table = {  version = "1", default-features = false }
 ureq = { version = "2", features = ["json"] }
 url = "2"
 tauri = { version = "1.0.0-rc.2", features = ["api-all"] }
+gun_wallet = { git = "https://github.com/GoUpNumber/gun", rev = "a34436e9876c91d78a8c6801ac305c7a296f36e7" }
 
 
 [dev-dependencies]
